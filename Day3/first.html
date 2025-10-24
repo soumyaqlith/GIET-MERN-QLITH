@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        h2{
+            font-size: 50px;
+        }
+        /* p{
+            background-color: brown;
+        } */
+    </style>
+</head>
+<body>
+    <!-- there are four way we can apply the css property -->
+
+    <!-- 1. Inline css
+         2. Internal css
+         3. External css
+         4.Import statement -->
+
+
+         <!-- Inline css -->
+
+         <h1 style="background-color: yellow;">this is the heading</h1>
+         <h2>this is the heading 2</h2>
+
+         <p style="background-color: chartreuse;">Lorem ipsum dolor sit amet.</p>
+
+
+         <!-- selector -->
+          <!-- 1.simple selector
+                  =>id selector
+                  => class name selector
+                  => tag name selector
+                  =>group name selector
+                  =>universal selector
+
+               2.combinator selector
+               3. attribute selector
+               4. pseudo class selector
+               5. pseudo element selector  -->
+
+
+               <div id="box"></div>
+               <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+               <h3>content </h3>
+
+
+               <b>this is bold</b>
+               <strong>this is strong</strong>
+               <p>this is p tag</p>
+
+
+               <!-- Combinator selector
+                   => descdent selector
+                   => direct child selector
+                   =>adjacent sibling selector
+                   =>general sibling selector
+                 -->
+
+                 <div class="parent">
+                    <p>child one</p>
+                    <div class="child">
+                        <p>indirect child</p>
+                    </div>
+                 </div>
+                 <p>first sibling</p>
+                 <p>second sibling</p>
+                 <p>third sibling</p>
+
+                 <div class="learn-pesudo"></div>
+                 <input type="text" placeholder="Name"><br>
+                 <input type="text" placeholder="age">
+
+                 <ul>
+                    <li>first child</li>
+                    <li>second child</li>
+                    <li>third child</li>
+                    <li>fourth child</li>
+                    <li>fiveth child</li>
+                 </ul>
+</body>
+</html>
