@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 40px auto;
+    border: 2px solid black;
+}
+
+.item {
+    float: left;
+}
+
+.item1 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+}
+
+.item2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.item3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+
+.paragraph {
+    background-color: red;
+    position: sticky;
+    top: 30px;
+    left: 0px;
+}
+
+nav {
+    width: 100vw;
+    height: 70px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+}
+
+.nav-logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo p {
+    color: blue;
+    font-size: 25px;
+}
+
+.nav-logo p span {
+    color: orangered;
+}
+
+ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul li{
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+ul li:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn button {
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 0, 0.875);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav-btn button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+
+
+.move{
+width: 100px;
+height: 100px;
+background-color: yellow;
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function:ease;
+transition-delay: 3s;
+}
+.move:hover{
+    transform: translate(400px);
+}
