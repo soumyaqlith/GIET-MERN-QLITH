@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main class="w-screen h-screen bg-yellow-200">
+        <nav class="w-full h-[10%] shadow-[2px_2px_5px_black] flex">
+            <div class="w-[20%] flex items-center justify-center">
+                <p class="text-lg font-semibold">GIET <span class="text-orange-600">Ghangapatna</span></p>
+            </div>
+            <ul class="w-[70%] flex justify-around items-center font-semibold">
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease ">Home</li>
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease ">About</li>
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease ">Service</li>
+                <li class="hover:text-orange-600 cursor-pointer transition-all duration-150 ease ">Contact</li>
+            </ul>
+            <div class="w-[10%] flex justify-center items-center">
+                <button class="border-1 pt-1 pb-1 pl-3 pr-3 bg-green-500
+             rounded-tr-[40%] rounded-bl-[40%] text-white hover:bg-green-400
+              hover:cursor-pointer">Login</button>
+            </div>
+        </nav>
+        <section class="w-full h-[90%] flex">
+            <div class="w-[50%] h-full flex flex-col 
+        justify-center items-center gap-10">
+                <h1 class="text-3xl font-extrabold text-white">GIET Ghangapatna</h1>
+                <p class="max-w-[300px] text-start text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Amet, at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolorem!</p>
+                <div class="flex gap-10">
+                    <button
+                        class="pl-8 pr-8 pt-2 pb-2 rounded-lg bg-linear-to-r from-cyan-500 to-red-500">Subscribe</button>
+                    <button class="pl-8 pr-8 pt-2 pb-2 
+                rounded-lg bg-linear-to-r from-green-500 to-white">Contact Us</button>
+                </div>
+                <div class="flex gap-7">
+                    <div class="p-1 shadow-[2px_2px_5px_black] rounded-[50%]">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="p-1 shadow-[2px_2px_5px_black] rounded-[50%]">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="p-1 shadow-[2px_2px_5px_black] rounded-[50%]">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[50%] h-full flex justify-center items-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf5l-ZSd3ALDT3Y0ONoCJePZfq1q8ng0OnQ&s"
+                    alt="put your clg image" class=" w-[300px] h-[300px] rounded-[50%] border-6 border-white">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
